@@ -3,9 +3,10 @@ module.exports = (Franz) => {
     let direct = 0;
     let indirect = 0;
     const Title = document.title;
-    var arr = Title.match(/\(([0-9]*)\).*/g) || [""];
-    /*
-    console.log(arr[0]);
+    let arr = Title.match(/\d+/g)[0] || [""];
+
+/*
+  console.log(arr[0]);
     if (FranzData) {
       direct = FranzData.direct;
       indirect = FranzData.indirect;
