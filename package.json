@@ -1,0 +1,13 @@
+{
+  "id": "podio",
+  "name": "Podio",
+  "version": "1.0.0",
+  "description": "Podio",
+  "main": "index.js",
+  "author": "jsugamele",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://podio.com/home",
+    "hasTeamID": false
+  }
+}
